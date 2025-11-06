@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f7f3ef;
+    color: #4b2e05;
+}
+
+header {
+    background-color: #3b2a1a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #d9a86c;
+}
+
+.hero {
+    text-align: center;
+    padding: 6rem 2rem;
+    background-color: #d9a86c;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    background-color: #3b2a1a;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #2b1c0e;
+}
+
+.menu {
+    padding: 4rem 3rem;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 2rem;
+    width: 250px;
+}
+
+.item h3 {
+    color: #3b2a1a;
+}
+
+.item span {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.nosotros {
+    background-color: #fff;
+    padding: 4rem 3rem;
+    text-align: center;
+}
+
+.nosotros h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #3b2a1a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
